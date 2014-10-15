@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>com.yourcompany.unique.plugin.id</id>
-  <name>Plugin display name here</name>
-  <version>1.0</version>
+  <name>Gmail plugin</name>
+  <version>0.1</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
   <description><![CDATA[
@@ -26,7 +26,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-      <toolWindow id="Mail"   secondary="true" anchor="right"
+      <toolWindow id="Mail"  anchor="right"
                   factoryClass="ru.crzang.plugin.MainPanel"  />
   </extensions>
 
